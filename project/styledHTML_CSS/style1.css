@@ -1,0 +1,175 @@
+element.style {
+    background-color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+  }
+  ul.a{
+    list-style-type: square;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Fira Sans", cursive;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+
+
+.navbar{
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+    border: 1px gray
+}
+nav{
+    display: block;
+    background-color: transparent;
+    position: fixed;
+    height: 40px;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    text-align: center;     
+}
+div.inner{
+    width: 1040px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+nav.a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    font-family: 'Fira Sans', cursive;
+    font-size: 10px;
+}
+
+article{
+    display: block;
+    
+    text-align: center;
+    font-family: "Merriweather"
+}
+section{
+    float: left;
+    width: absolute;
+    
+}
+h1{
+    font-family: 'Fira Sans', cursive; font-size: 25px; color: royalblue;
+    text-align: left;
+    letter-spacing: normal;
+}
+h2{
+    font-family: 'Fira Sans', cursive; font-size: 50px; color:royalblue;
+    text-align: left;
+    letter-spacing: normal;
+}
+section1.Sustainability-video {
+    sustainability-video: url('https://www.youtube.com/watch?v=_5r4loXPyx8');
+    margin: 0 auto;
+    width: 100%;
+    box-align: center
+
+}
+div{
+    display: block;
+    align: center
+}
+div.topic.col-6.col-s-12.col-xs-12{
+    background-image:url(https://images.app.goo.gl/R7GRY3A1W2ZBJuVe6) ;
+    width: 400px;
+    height: 400px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+a.landing-link{
+    font-family:'Fira Sans', cursive; font-size: 20px; color: lightblue; text-align: center;
+    background-color: transparent
+
+}
+footer{
+    display: block;
+    width: 100%;
+    padding: 2em;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    font-size: 14px;
+    font-family: 'Merriweather';color: black;
+    text-align: center;  
+    align-items: center;
+}
+
+}
+#article_small_left{
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 500;
+    display: block;
+
+    margin-block-start: 19.2px;
+    margin-block-end: 19.2px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family:'Merriweather' ;color: black;
+    float: left;
+    width: 40%;
+}
+p.img{
+    display: block;
+    float: right;
+    margin-bottom: 19.2px;
+    margin-left: 19.2px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 40%;
+}
+p{
+    display: block;
+    height: 70px;
+    margin: 0 14px;
+    padding-top: 20px;
+    text-align: center;
+    width: 90px;
+    float: left;
+    width: 40%;
+}
+aside{
+    margin: 0 1.5% 24px 1.5%;
+}
+
+
+
